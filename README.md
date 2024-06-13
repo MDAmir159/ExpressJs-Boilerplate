@@ -1,5 +1,5 @@
 
-# ExpressJs MySQL Boilerplate
+# ExpressJs Boilerplate
 
 A brief description of what this project does and who it's for
 
