@@ -1,0 +1,6 @@
+module.exports = {
+  SUCCESS: "SUCCESS",
+  FAILED: "FAILED",
+  UNAUTHORIZED: "UNAUTHORIZED",
+  INVALID: "INVALID"
+}

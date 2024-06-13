@@ -1,0 +1,11 @@
+superadmin info
+{
+    "email": "islamamirul497@gmail.com"
+    "password": "1q2w3E4r*"
+}
+
+users 
+{
+    "email": "amir@gmail.com",
+    "password": "asdasd"
+}
