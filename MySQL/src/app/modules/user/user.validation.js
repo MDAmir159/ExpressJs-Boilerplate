@@ -32,15 +32,6 @@ const UpdatePasswordValidationSchema = Joi.object({
     newPassword: Joi.string().required(),
 })
 
-/////////////////////////////////
-
-
-const CreateUpdateApiTokenValidationSchema = Joi.object({
-    email: Joi.string().email().required(),
-    apiToken: Joi.string().required()
-});
-
-
 const RetrieveUserHistoryValidationSchema = Joi.object({
     email: Joi.string().email().required()
 })
@@ -54,7 +45,6 @@ const CreateSuperAdminSeedUserValidationSchema = Joi.object({
 
 module.exports = {
     CreateUserValidationSchema,
-    CreateUpdateApiTokenValidationSchema,
     LoginValidationSchema,
     RetrieveUserHistoryValidationSchema,
     UpdateProfileValidationSchema,
