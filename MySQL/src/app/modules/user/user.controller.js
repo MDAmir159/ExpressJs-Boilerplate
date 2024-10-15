@@ -164,14 +164,6 @@ const updatePassword = async (req, res, next) => {
   }
 }
 
-
-
-////////////////////
-
-
-
-
-
 const userRemove = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -200,7 +192,6 @@ const getAllUsers = async (req, res, next) => {
     next(error);
   }
 };
-
 
 
 const addUserAPIKey = async (req, res, next) => {
@@ -250,9 +241,6 @@ const retrieveUserHistory = async (req, res, next) => {
     next(error)
   }
 }
-
-
-
 
 const createSuperAdminSeedUser = async (req, res, next) => {
   try {

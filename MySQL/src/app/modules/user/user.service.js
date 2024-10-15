@@ -193,8 +193,6 @@ const updatePasswordService = async (payload) => {
     }
 }
 
-//////////////
-
 const getAllUsersService = async () => {
     try {
         let docs = await getAllUsersQuery();
@@ -213,9 +211,6 @@ const getUserByEmailService = async (email) => {
         return { error: error }
     }
 }
-
-
-
 
 module.exports = {
     createUserService,

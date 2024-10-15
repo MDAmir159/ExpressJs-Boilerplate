@@ -36,7 +36,6 @@ const RetrieveUserHistoryValidationSchema = Joi.object({
     email: Joi.string().email().required()
 })
 
-
 const CreateSuperAdminSeedUserValidationSchema = Joi.object({
     email: Joi.string().email().required(),
     password: Joi.string().required(),
